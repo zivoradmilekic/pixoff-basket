@@ -46,7 +46,7 @@ function Game() {
     <div className="Game">
       <div className="row">
         <div className="col-6 text-center">
-          <h3>You missed: {misses} time(s)</h3>
+          <h3>Misses: {misses}</h3>
           <button
             className="btn btn-danger"
             onClick={() => setMisses(misses + 1)}
@@ -55,7 +55,7 @@ function Game() {
           </button>
         </div>
         <div className="col-6 text-center">
-          <h3>You scored: {hits} time(s)</h3>
+          <h3>Hits: {hits}</h3>
           <button className="btn btn-success" onClick={() => setHits(hits + 1)}>
             Hit
           </button>
