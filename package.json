@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
-    "bootstrap": "4.3.1",
+    "@ionic/react": "4.11.5",
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "react-router": "5.1.2",

@@ -1,20 +1,9 @@
 import * as React from "react";
 import { render } from "react-dom";
 
-import Game from "./Game";
+import "@ionic/react/css/core.css";
 
-import "/node_modules/bootstrap/dist/css/bootstrap.css";
-
-function App() {
-  return (
-    <div className="App">
-      <div className="container">
-        <h1 className="text-center">Basket</h1>
-        <Game />
-      </div>
-    </div>
-  );
-}
+import App from "./App";
 
 const rootElement = document.getElementById("root");
 render(<App />, rootElement);
