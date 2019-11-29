@@ -28,18 +28,26 @@ function Game() {
   const [hits, setHits] = React.useState(0);
 
   const [players, setPlayers] = React.useState({
-    Zika: {
-      name: "1 Zika",
-      hits: [2, 1]
-    },
-    Pera: {
-      name: "2 Pera",
-      hits: [2, 4]
-    },
-    Sima: {
-      name: "3 Sima",
-      hits: [7]
-    }
+    // asdf: {
+    //   name: "a",
+    //   hits: [5, 3, 2, 1]
+    // },
+    // qwer: {
+    //   name: "q",
+    //   hits: [5, 1, 2, 1]
+    // },
+    // sdfg: {
+    //   name: "s",
+    //   hits: [5, 11, 2, 1]
+    // },
+    // erty: {
+    //   name: "e",
+    //   hits: [6, 5, 2, 1]
+    // },
+    // tyui: {
+    //   name: "t",
+    //   hits: [5, 333, 2, 5]
+    // }
   });
 
   const sets = [10, 5, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
